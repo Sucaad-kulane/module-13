@@ -18,5 +18,11 @@ body {
   padding-left: 30px  ;
   padding-right: 30px;
   height: 50px ;
- 
 }
+
+.front{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+

@@ -1,18 +1,15 @@
-import { Link } from "react-router-dom";
 
-const Home = () => {
+const Home = ({title}) => {
     return <div>
-        <header className="header">
-            <Link to ="/">Home</Link>
-            <Link to ="contact">Contct</Link>
-            <Link to ="project">Project</Link>
-        </header>
-        <section>
-
-
+        <section className="front">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeGHwmhCFbrbiSUkl-tz4SeNDIjSYU-Bp0Aw&usqp=CAU"/>
         </section>
+        <h1>Hi name is {"Sucaad"}</h1>
+        <h4> Title: {title}</h4>
+        <p> Contributing to the development of children with passion, rethinking early years education & learning how to code 👩🏽‍💻</p>
 
     </div>
 }
 
 export default Home;
+
